@@ -1,0 +1,12 @@
+ckpi-support (1.0.1) stable; urgency=low
+
+  * Restricted architecture
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 16 Feb 2016 14:30:00 +0000
+
+ckpi-support (1.0.0) stable; urgency=low
+
+  * Initial build
+
+ -- Matt Jenkins <matt@majenko.co.uk>  Tue, 16 Feb 2016 14:30:00 +0000
+

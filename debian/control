@@ -1,0 +1,11 @@
+Source: ckpi-support
+Section: main
+Priority: extra
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+
+Package: ckpi-support
+Architecture: armhf
+Depends: avahi-daemon
+Description: chipKIT Pi Remote Programming Support

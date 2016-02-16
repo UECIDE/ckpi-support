@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function removeCkPi() {
+	echo "Removing user ckpi...";
+	userdel ckpi
+}
+
+id ckpi && removeCkPi

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function createCkPi() {
+	echo "Creating user ckpi...";
+	useradd -m ckpi
+	usermod -a -G dialout,gpio ckpi
+	echo "***************************************************"
+	echo "* * * * * * * * I M P O R T A N T ! * * * * * * * *"
+	echo "***************************************************"
+	echo ""
+	echo "A new user 'ckpi' has been created.  That user needs"
+	echo "a password.  Please enter a new password below.  You"
+	echo "will need this password later when it comes to using"
+	echo "UECIDE to upload firmware, so be sure to remember it."
+	echo ""
+	passwd ckpi
+}
+
+id ckpi || createCkPi
